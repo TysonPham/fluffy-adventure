@@ -15,9 +15,6 @@ body{
     display: flex;
 }
 
-.key{
-
-}
 
 .white-key{
     width:100px;
@@ -26,6 +23,9 @@ body{
     border: 1px solid #333;
 }
 
+.white-key.active{
+    background-color: #CCC;
+}
 .black-key{
     width:60px;
     height: 240px;
@@ -34,4 +34,8 @@ body{
     margin-right: -30px;
     z-index: 2;
     
+}
+
+.black-key.active{
+    background-color: #333;
 }
